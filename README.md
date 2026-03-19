@@ -35,13 +35,16 @@ MongoDB is often deployed in containers for local development, CI pipelines, or 
 In production, Atlas replaces the need to run MongoDB inside your own containers — but containers still play a role.
 
 #### 🏭 Production Pattern
-[ Dockerized Microservices ] <br>
-          | <br>
+```
+[ Dockerized Microservices ] 
+          | 
           |  (TLS, VPC Peering, Private Endpoint)
           |
 [ MongoDB Atlas Cluster ]
+```
 
 #### 📌 Summary Architecture Diagram
+```
 Client Apps
    |
 API Layer / Microservices (Docker / Kubernetes)
@@ -53,3 +56,4 @@ MongoDB Atlas Cluster
    ├── Backups
    ├── Monitoring
    └── Optional Sharding
+```
