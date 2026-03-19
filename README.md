@@ -18,18 +18,6 @@ Bucket for logs/time‑series
 🔗 Referencing Use for: reusable entities, large subdocs, many‑to‑many. \
 🪣 Bucketing Use for: IoT, logs, metrics. 
 
-### 🚀 3. Performance Architecture
-⚡ Indexing \
-Index filters, sorts, joins \
-Use compound indexes \
-Avoid over‑indexing \
-Use TTL for ephemeral data 
-
-📊 Aggregation Optimization 
-$match early \
-Avoid unbounded $lookup \
-Use $facet for multi‑view analytics 
-
 ### 🐳 Docker Integration Architecture
 MongoDB is often deployed in containers for local development, CI pipelines, or microservice environments. \
 In production, Atlas replaces the need to run MongoDB inside your own containers — but containers still play a role.
