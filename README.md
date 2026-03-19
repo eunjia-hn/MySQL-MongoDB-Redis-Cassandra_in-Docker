@@ -23,7 +23,7 @@ Bucket for logs/time‑series
 Index filters, sorts, joins \
 Use compound indexes \
 Avoid over‑indexing \
-Use TTL for ephemeral data \
+Use TTL for ephemeral data 
 
 📊 Aggregation Optimization 
 $match early \
