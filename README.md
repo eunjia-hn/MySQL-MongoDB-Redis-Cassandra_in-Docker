@@ -1,6 +1,11 @@
 # Types-of-databases-and-Database-containerization
 The base codes for mySql, mongoDB, and more
 
+Initialize the driver (mySql): 
+```
+pip3 install mysql-connector-python
+```
+
 ## MySQL
 Relational (functionality/structure)
 
